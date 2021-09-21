@@ -21,6 +21,14 @@ public class StackClass {
         while (iterator.hasNext()){
             System.out.println(iterator.next()+ " ");
         }
+        System.out.println( );
+        s.pop();
+
+        //create another iterator for the stack
+        iterator =s.iterator();
+        while (iterator.hasNext()){
+            System.out.println(iterator.next());
+        }
     }
 
 }
