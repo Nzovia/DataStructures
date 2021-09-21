@@ -11,6 +11,7 @@ public class LinkedListClass {
         mylist.add("Nic");
         mylist.add("Jen");
         mylist.add("Nic");
+        mylist.remove("Jen");
 
         Iterator<String> itr = mylist.iterator();
         while(itr.hasNext()){
